@@ -68,4 +68,4 @@ jobs:
           app-name: 'ricardo-app'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4E814C5B641242009DF0E1E6AFB9D910 }}
-          package: .
+          package: ${{ github.workspace }}/public
